@@ -1,0 +1,19 @@
+.done {
+    text-decoration: line-through;
+}
+
+.important {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.todo-list-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-list-item-label:hover{
+    cursor: pointer;
+}

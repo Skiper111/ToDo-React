@@ -1,0 +1,21 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.65);
+}
+
+.head div{
+    display: flex;
+    flex-direction: column;
+}
+
+.head div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head div div span {
+    font-weight: bold;
+    margin-left: 1rem;
+}
